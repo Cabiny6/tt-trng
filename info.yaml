@@ -20,7 +20,7 @@ pinout:
   ui[2]: "A_OSC_EN"
   ui[3]: ""
   ui[4]: ""
-  ui[5]: "B_STOP_COUNT"
+  ui[5]: "B_OSC_EN (1=run osc + reset counter, 0=count + stop osc)"
   ui[6]: "B_SEL[0]"
   ui[7]: "B_SEL[1]"
 
