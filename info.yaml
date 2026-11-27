@@ -15,24 +15,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[0]: "A_SEL[0]"
+  ui[1]: "A_SEL[1]"
+  ui[2]: "A_OSC_EN"
   ui[3]: ""
   ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[5]: "B_STOP_COUNT"
+  ui[6]: "B_SEL[0]"
+  ui[7]: "B_SEL[1]"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "A_TRNG_RAW"
+  uo[1]: "A_TRNG_LFSR"
+  uo[2]: "A_TRNG_VN"
+  uo[3]: "A_TRNG_VN_VALID"
   uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[5]: "B_COUNT[0] (LSB)"
+  uo[6]: "B_COUNT[1]"
+  uo[7]: "B_COUNT[2] (MSB)"
 
   # Bidirectional pins
   uio[0]: ""
