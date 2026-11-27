@@ -7,6 +7,8 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
+![TRNG Architecture](trng.png)
+
 ## How it works
 
 This project contains two independent true random number generators (TRNGs) on the same tile. A TRNG produces random bits from a physical noise source, instead of from an algorithm. Here the noise source is the timing jitter of ring oscillators (ROs), which are loops of delay cells (inverters) that oscillate on their own.
